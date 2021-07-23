@@ -1,0 +1,218 @@
+/*--------------- HEADER -----------------*/
+
+header {
+    background-image: url("../img/palmeras.jpg");
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    font-family: Pattaya , sans-serif;
+    font-size: 30px;
+    transition: .45s;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+header h1 {
+    position: absolute;
+    margin-top: 55px;
+    color: #ffffff;
+    text-align: center;
+    transition: .45s;
+    width: 100%;
+    text-shadow: 0 10px 7px #000 , 0 11px 1px #000 , 1px 13px 1px #ffffff;
+}
+
+header:hover {
+    background-image: url("../img/back_pis.jpg");
+    object-fit: cover;
+    height: 190px;
+    transition: .45s;
+}
+
+header h1:hover {
+    color: #000;
+    transition: .45s;
+    text-shadow: 0 5px 7px #fff , 0 7px 1px #fff , 0 8.5px 1px #000;
+}
+
+
+/*----------- NAV ------------------ */
+
+nav div {
+    background: linear-gradient(to right, #fff, transparent, rgb(145, 114, 255),rgb(145, 118, 255) , rgb(87, 69, 255), rgb(70 , 77, 255));
+    height: 35px;
+    font-size: 22px;
+    margin-top: 5px;
+    font-family: Koho, sans-serif;
+    margin-bottom: 5px;
+    -webkit-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav-item {
+    text-align: center;
+    margin-left: 3.2px;
+    padding: 5px 3px;
+    width: 260px;
+    display: inline-block;
+}
+
+.nav-item-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.cf_0 {
+    color: #000;
+    text-shadow: 2px 0 1px #fff;
+}
+
+.cf_1 {
+    color: #000;
+    text-shadow: 2px 0 1px #fff;
+}
+
+.cf_2 {
+    color: #fff;
+    text-shadow: 2px 0 1px #000;
+}
+
+.cf_3 {
+    color: #fff;
+    text-shadow: 2px 0 1px #000;
+}
+
+.cf_4 {
+    color: #fff;
+    text-shadow: 2px 0 1px #000;
+}
+
+/*------------------ SCROLL IMAGES ---------------------*/
+
+#scroll-images {
+    margin-top: 20px;
+    position: relative;
+    height: 320px;
+}
+
+#scroll-images div {
+    height: 310px;
+    margin: 20px 10px 20px 10px;
+    background-color:rgb(241, 239, 239);
+}
+
+
+/*--------------------- SERVICES ------------------------*/
+
+.title-services {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: rgb(241, 239, 239);
+    font-family: Koho, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.title-services h2 {
+    text-align: center;
+}
+
+.services-items {
+    padding: 10px 25px 10px 25px;
+    background-color: rgb(241, 239, 239);
+    width: 100%;
+}
+
+.services-items h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    text-shadow: .5px 1px 1px #000, .7px 1.5px 1.5px #000 ;
+}
+
+.services-items p {
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: justify;
+}
+
+.service-item-one {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+    margin-bottom: 10px;
+}
+
+.service-item-two {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+}
+
+.service-item-three {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+}
+
+.service-item-four {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+}
+
+.service-item-five {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+}
+
+.service-item-six {
+    width: 420px;
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid rgb(145, 114, 255);
+}
+
+
+
+/*--------------------- RESPONSIVE DESING ----------------*/
+
+@media only screen and (max-width:1335px) {
+
+    nav div {
+        height: 190px;
+    }
+
+
+    .nav-item {
+        width: 100%;
+        display: block;
+        margin-top: 2px;
+        border: .5px solid #fff;
+        
+    }
+    
+    .cf_0 {
+        color: #fff;
+        text-shadow: 2px 0 1px #000;
+    }
+    
+    .cf_1 {
+        color: #fff;
+        text-shadow: 2px 0 1px #000;
+    }
+
+
+
+}
+
