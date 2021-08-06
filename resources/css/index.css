@@ -107,6 +107,11 @@ nav div {
 
 /*--------------------- SERVICES ------------------------*/
 
+#services {
+    width: 1350px;
+    height: 450px;
+}
+
 .title-services {
     margin-top: 5px;
     margin-bottom: 10px;
@@ -121,7 +126,7 @@ nav div {
 }
 
 .services-items {
-    padding: 10px 25px 10px 25px;
+    padding: 10px 0 10px 45px;
     background-color: rgb(241, 239, 239);
     width: 100%;
 }
@@ -182,6 +187,15 @@ nav div {
     padding: 20px;
     border: 1px solid rgb(145, 114, 255);
 }
+
+
+/*----------------------- FOOTER ------------------------- */
+
+
+
+
+
+
 
 
 
