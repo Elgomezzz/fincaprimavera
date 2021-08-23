@@ -89,3 +89,139 @@ nav div {
     color: #fff;
     text-shadow: 2px 0 1px #000;
 }
+
+
+/*----------------- FOOTER ---------------*/
+
+.foot {
+    
+    width: 99.99%;
+    height: 330px;
+    background-color: rgb(241, 239, 239);
+}
+
+.social-media {
+    width: 250px;
+    height: 115px;
+    position: absolute;
+    margin: 8px 0 0 10px;
+}
+
+.items-social-media {
+    margin: 8px;
+}
+
+.social-media-title {
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 2px;
+}
+
+.social-media-list {
+    margin: 7px 0 0 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.social-media-list a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: -1px 1px 2px #000, 1px -1px 2px #000;
+}
+
+
+.f-location {
+    width: 512px;
+    position: absolute;
+    margin: 8px 0 0 420px;
+}
+
+.f-location-title {
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.f-location-gps {
+    border: 2px solid #fff;
+    padding: 5px;
+}
+
+.f-contact {
+    height: 115px;
+    width: 270px;
+    position: absolute;
+    margin: 8px 0 0 1050px;
+}
+
+.f-contact-title {
+    margin: 10px 0 0 0;
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+}
+
+.f-contact-text {
+    font-family: 'Bebas Neue', cursive;
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: -1px 1px 5px #000, 1px -1px 2px #000;
+}
+
+.f-end {
+    position: absolute;
+    margin: 280px 0 0 560PX;
+    text-align: center;
+    font-family: Koho, sans-serif;
+}
+
+.f-end p {
+    margin-top: 3px;
+}
+
+
+
+
+
+
+
+/*--------------------- RESPONSIVE DESING ----------------*/
+
+@media only screen and (max-width:1335px) {
+
+    nav div {
+        height: 190px;
+    }
+
+
+    .nav-item {
+        width: 100%;
+        display: block;
+        margin-top: 2px;
+        border: .5px solid #fff;
+        
+    }
+    
+    .cf_0 {
+        color: #fff;
+        text-shadow: 2px 0 1px #000;
+    }
+    
+    .cf_1 {
+        color: #fff;
+        text-shadow: 2px 0 1px #000;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+

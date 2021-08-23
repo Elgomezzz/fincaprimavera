@@ -92,17 +92,78 @@ nav div {
 
 /*------------------ SCROLL IMAGES ---------------------*/
 
-#scroll-images {
+.scroll-images {
     margin-top: 20px;
     position: relative;
-    height: 320px;
+    
 }
 
-#scroll-images div {
-    height: 310px;
+.scroll-images div {
     margin: 20px 10px 20px 10px;
     background-color:rgb(241, 239, 239);
+    height: 550px;
 }
+
+#sc_img_0 {
+    position: absolute;
+    height: 470px;
+    width: 950px;
+    margin: 40px 50px 0 212.5px;
+}
+
+
+#sc_img_1 {
+    position: absolute;
+    height: 470px;
+    width: 950px;
+    margin: 40px 50px 0 212.5px;
+}
+
+#sc_img_2 {
+    position: absolute;
+    height: 470px;
+    width: 950px;
+    margin: 40px 50px 0 212.5px;
+}
+
+#sc_img_3 {
+    position: absolute;
+    height: 470px;
+    width: 950px;
+    margin: 40px 50px 0 212.5px;
+}
+
+#btn_0 {
+    position: relative;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    margin-left: 650px;
+    margin-bottom: 12.5px;
+}
+
+#btn_1 {
+    position: relative;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+#btn_2 {
+    position: relative;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+#btn_3 {
+    position: relative;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+
 
 
 /*--------------------- SERVICES ------------------------*/
@@ -195,13 +256,92 @@ nav div {
 
 /*----------------------- FOOTER ------------------------- */
 
+.foot {
+    
+    width: 99.99%;
+    height: 330px;
+    background-color: rgb(241, 239, 239);
+}
+
+.social-media {
+    width: 250px;
+    height: 115px;
+    position: absolute;
+    margin: 8px 0 0 10px;
+}
+
+.items-social-media {
+    margin: 8px;
+}
+
+.social-media-title {
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+    margin: 0 0 0 2px;
+}
+
+.social-media-list {
+    margin: 7px 0 0 2px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+}
+
+.social-media-list a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: -1px 1px 2px #000, 1px -1px 2px #000;
+}
 
 
+.f-location {
+    width: 512px;
+    position: absolute;
+    margin: 8px 0 0 440px;
+}
 
+.f-location-title {
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
 
+.f-location-gps {
+    border: 2px solid #fff;
+    padding: 5px;
+}
 
+.f-contact {
+    height: 115px;
+    width: 270px;
+    position: absolute;
+    margin: 8px 0 0 1050px;
+}
 
+.f-contact-title {
+    margin: 10px 0 0 0;
+    font-family: Koho, sans-serif;
+    font-size: 18px;
+}
 
+.f-contact-text {
+    font-family: 'Bebas Neue', cursive;
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: -1px 1px 5px #000, 1px -1px 2px #000;
+}
+
+.f-end {
+    position: absolute;
+    margin: 280px 0 0 560PX;
+    text-align: center;
+    font-family: Koho, sans-serif;
+}
+
+.f-end p {
+    margin-top: 3px;
+}
 
 /*--------------------- RESPONSIVE DESING ----------------*/
 
