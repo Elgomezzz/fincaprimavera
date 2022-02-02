@@ -12,154 +12,152 @@
     <title> Finca La Primavera </title>
 </head>
 <body>
-<header>
-    <div class="container">
-        <div class="row">
+    <header>
+        <div class="ttl-header">
             <h1>Finca La Primavera </h1> 
         </div>
-    </div>
-</header>
-<nav>
-    <div class="container">
-        <ul class="navbar-nav">
-            <li class="nav-item"><a href="../../index.html" class="nav-item-link cf_0">Inicio</a></li>
-            <li class="nav-item"><a href="quienes.html" class="nav-item-link cf_1">Quienes Somos</a></li>
-            <li class="nav-item"><a href="tarifas.html" class="nav-item-link cf_2">Tarifas</a></li>
-            <li class="nav-item"><a href="location.html" class="nav-item-link cf_3">Ubicación</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-item-link cf_4">Contactenos</a></li>
-        </ul>
-    </div>
-</nav>
-<div class="main-section">
-    <section id="tarifas">
-        <div class="services">
-            <div class="services-title">
-                <h2>Tarifas</h2>
-            </div>
-            <div class="services-items">
-                <div class="service-one">
-                    <div class="service-one-title">
-                        <h3>Tarifa 1</h3>
+        <nav>
+            <ul class="list-items">
+                <li class="nav-item"><a href="index.html" class="nav-item-link cf_0">Inicio</a></li>
+                <li class="nav-item"><a href="resources/views/quienes.html" class="nav-item-link cf_1">Quienes Somos</a></li>
+                <li class="nav-item"><a href="resources/views/tarifas.html" class="nav-item-link cf_2">Tarifas</a></li>
+                <li class="nav-item"><a href="resources/views/location.html" class="nav-item-link cf_3">Ubicación</a></li>
+                <li class="nav-item"><a href="resources/views/contact.html" class="nav-item-link cf_4">Contactenos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article class="rates">
+            <section class="items-rates">
+                <div class="rates-ttl">
+                    <h2>Tarifas</h2>
+                </div>
+                <div class="list-items-rates">
+                    <div class="service-item">
+                        <div class="svc-one-ttl">
+                            <h3>Tarifa 1</h3>
+                        </div>
+                        <div class="svc-one-items">
+                            <ul id="svc-one-list">
+                                <li class="list-item">Item1</li>
+                                <li class="list-item">Item2</li>
+                                <li class="list-item">Item3</li>
+                                <li class="list-item">Item4</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="service-one-items">
-                        <ul id="service-one-lst">
-                            <li class="list-item">Item1</li>
-                            <li class="list-item">Item2</li>
-                            <li class="list-item">Item3</li>
-                            <li class="list-item">Item4</li>
-                        </ul>
+                    <div class="service-item">
+                        <div class="svc-two-ttl">
+                            <h3>Tarifa 2</h3>
+                        </div>
+                        <div class="svc-two-items">
+                            <ul id="svc-two-list">
+                                <li class="list-item">Item1</li>
+                                <li class="list-item">Item2</li>
+                                <li class="list-item">Item3</li>
+                                <li class="list-item">Item4</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <div class="svc-three-ttl">
+                            <h3>Tarifa 3</h3>
+                        </div>
+                        <div class="svc-three-items">
+                            <ul id="svc-three-list">
+                                <li class="list-item">Item1</li>
+                                <li class="list-item">Item2</li>
+                                <li class="list-item">Item3</li>
+                                <li class="list-item">Item4</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-                <div class="service-two">
-                    <div class="service-two-title">
-                        <h3>Tarifa 2</h3>
-                    </div>
-                    <div class="service-two-items">
-                        <ul id="service-two-lst">
-                            <li class="list-item">Item1</li>
-                            <li class="list-item">Item2</li>
-                            <li class="list-item">Item3</li>
-                            <li class="list-item">Item4</li>
-                        </ul>
-                    </div>
+            </section>
+        </article>
+        <article class="form">
+            <section class="frm-reservation">
+                <div class="date-avalible">
+                    <label for="date-reservation-avalible">Calendario Disponible</label>
+                    <input type="date" name="date-reservation-available" id="date-reservation-available">
                 </div>
-                <div class="service-three">
-                    <div class="service-three-title">
-                        <h3>Tarifa 3</h3>
-                    </div>
-                    <div class="service-three-items">
-                        <ul id="service-three-lst">
-                            <li class="list-item">Item1</li>
-                            <li class="list-item">Item2</li>
-                            <li class="list-item">Item3</li>
-                            <li class="list-item">Item4</li>
-                        </ul>
-                    </div>
+                <form action="#" method="POST">
+                    <fieldset>
+                        <legend>Realiza tu reservación</legend>
+                        <label for="f-name">Nombres:</label>
+                        <input type="text"name="f-name" id="f-name">
+                        <label for="l-name">Apellidos:</label>
+                        <input type="text" name="l-name" id="l-name">
+                        <label for="telephone">Telefono:</label>
+                        <input type="text" name="telephone" id="telephone">
+                        <label for="email">Correo Electronico:</label>
+                        <input type="email" name="email" id="email">
+                        <label for="n-people">Número de Personas:</label>
+                        <input type="number" name="n-people" id="n-people" min="0" max="35" required
+                        placeholder=" MIN 10 - MAX 35 ">
+                        <label for="date-reservation-ini">Fecha de Ingreso:</label>
+                        <input type="date" name="date-reservation-ini" id="date-reservation-ini">
+                        <label for="date-reservation-end">Fecha de Salida:</label>
+                        <input type="date" name="date-reservation-end" id="date-reservation-end">
+                        <select name="service-tarifas" id="service-tarifas" required>
+                            <option value="">Seleccione una tarifa</option>
+                            <option value="0">Tarifa 1</option>
+                            <option value="1">Tarifa 2</option>
+                            <option value="2">Tarifa 3</option>
+                        </select>
+                        <input type="submit" value="Confirmar Reserva">
+                    </fieldset>
+                </form>
+            </section>
+        </article>
+        <article class="images-rates">
+            <section class="scroll-images">
+                <div class="items-scroll">
+                    <img src="#" alt="img1">
+                    <img src="#" alt="img2">
+                    <img src="#" alt="img3">
+                </div>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <article class="social-media">
+            <div class="items-social-media">
+                <div class="social-media-ttl">
+                    <h3>Redes Sociales</h3>
+                </div>
+                <div class="social-media-list">
+                    <a href="#">Facebook</a><br>
+                    <a href="#">Twitter</a><br>
+                    <a href="#">Instagram</a>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="frm_reservation">
-        <div class="reservation">
-            <div class="date-avalible">
-                <label for="date-reservation-avalible">Calendario Disponible</label>
-                <input type="date" name="date-reservation-available" id="date-reservation-available">
+        </article>
+        <article class="location-estate">
+            <div class="location-ttl">
+                <h3>¿Donde nos ubicamos?</h3>
             </div>
-            <form action="#" method="post">
-                <fieldset>
-                    <legend>Realiza tu reservación</legend>
-                    <label for="f-name">Nombres:</label>
-                    <input type="text"name="f-name" id="f-name">
-                    <label for="l-name">Apellidos:</label>
-                    <input type="text" name="l-name" id="l-name">
-                    <label for="telephone">Telefono:</label>
-                    <input type="text" name="telephone" id="telephone">
-                    <label for="email">Correo Electronico:</label>
-                    <input type="email" name="email" id="email">
-                    <label for="n-people">Número de Personas:</label>
-                    <input type="number" name="n-people" id="n-people" min="0" max="35" required
-                    placeholder=" MIN 10 - MAX 35 ">
-                    <label for="date-reservation-ini">Fecha de Ingreso:</label>
-                    <input type="date" name="date-reservation-ini" id="date-reservation-ini">
-                    <label for="date-reservation-end">Fecha de Salida:</label>
-                    <input type="date" name="date-reservation-end" id="date-reservation-end">
-                    <select name="service-tarifas" id="service-tarifas" required>
-                        <option value="">Seleccione una tarifa</option>
-                        <option value="0">Tarifa 1</option>
-                        <option value="1">Tarifa 2</option>
-                        <option value="2">Tarifa 3</option>
-                    </select>
-                    <input type="submit" value="Confirmar Reserva">
-                </fieldset>
-            </form>
-        </div>
-    </section>
-    <div class="scroll-images">
-        <div class="scroll-images-items">
-            <img src="#" alt="img1">
-            <img src="#" alt="img2">
-            <img src="#" alt="img3">
-        </div>
-    </div>
-</div>
-<footer>
-    <section id="social-media">
-        <div class="items-social-media">
-            <div class="social-media-title">
-                <h3>Redes Sociales</h3>
+            <div class="location-gps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.325703737088!2d-74.18271155000001!3d4.5793986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622059198589!5m2!1ses!2sco" 
+                    width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
             </div>
-            <div class="social-media-list">
-                <a href="">Facebook</a><br>
-                <a href="">Twitter</a><br>
-                <a href="">Instagram</a>
+        </article>
+        <article class="info-contact">
+            <div class="contact-ttl">
+                <h3>Contactenos</h3>
             </div>
+            <div class="contact-txt">
+                <p>Telefono: 7-76-7979</p>
+                <p>Telefono Movil: 310-601-6263</p>
+                <p>Correo Electronico: ejemplo@ejemplo.com</p>
+            </div>
+        </article>
+        <div class="end">
+            <p>Todos los derechos reservados &#169 2021</p>
+            <p> &#127796 Finca la Primavera &#127796 </p>
         </div>
-    </section>
-    <section class="f-location">
-        <div class="f-location-title">
-            <h3>¿Donde nos ubicamos?</h3>
-        </div>
-        <div class="f-location-gps">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.325703737088!2d-74.18271155000001!3d4.5793986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622059198589!5m2!1ses!2sco" 
-                width="392" height="200" style="border:0;" allowfullscreen="" loading="lazy">
-            </iframe>
-        </div>
-    </section>
-    <section class="f-contact">
-        <div class="f-contact-title">
-            <h3>Contactenos</h3>
-        </div>
-        <div class="f-contact-text">
-            <p> Telefono:</p>
-            <p> Telefono Movil:</p>
-            <p> Correo Electronico:</p>
-        </div>
-    </section>
-    <div class="f-end">
-        <p>Todos los derechos reservados 2021</p>
-        <p>Finca la Primavera</p>
-    </div>
-</footer>
+    </footer>
 <script src="../js/tarifas.js"></script>
 </body>
 </html>
