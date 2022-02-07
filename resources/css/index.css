@@ -1,1 +1,177 @@
+img{
+    max-width: 100%;
+}
+
 /*--------------- HEADER -----------------*/
+
+.ttl-header{
+    border: 1px solid var(--color-border1);
+    color: var(--color-txt1);
+    background-image: url(/resources/img/palmeras.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 9rem;
+}
+
+.ttl-header h1{
+    margin: 2.5rem 0 0 0;
+    text-align: center;
+    height: 6rem;
+    font-size: 3.5em;
+    font-family: var(--font-pattaya);
+}
+
+
+.ttl-header:hover{
+    color: var(--color-txt2);
+    background-image: url(/resources/img/back_pis.jpg);
+}
+
+/*-------------------NAV-----------------------*/
+
+nav{
+    height: 2.40rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-top: 0.30rem;
+    z-index: 10;
+}
+
+.list-items{
+    background-color: var(--bg-color-gray1);
+    text-align: center;
+    height: inherit;
+    word-spacing: 12rem;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-top: 0.40rem;
+}
+
+.nav-item-link{
+    font-family: var(--font-koho);
+    font-size: 1.20rem;
+    text-decoration: none;
+    color: var(--color-txt2);
+}
+
+
+/*--------------SCROLL IMAGES---------------*/
+
+.img-estate{
+    height: 22.50rem;
+    width: 100%;
+}
+
+.scroll-images{
+    height: inherit;
+    width: inherit;
+}
+
+.images-scroll-index{
+    height: 20rem;
+    margin-top: 0.7rem;
+}
+
+.images-scroll-index img{
+    margin-left: 10%;
+    padding: .3rem;
+    width: 80%;
+    height: inherit;
+    position: absolute;
+    object-fit: cover;
+    border: .5px solid var(--color-border2);
+    border-radius: .5rem;
+}
+
+.btn-scroll-img{
+    margin-top: .1rem;
+    height: 1.65rem;
+    text-align: center;
+}
+
+.btn-scroll-img button{
+    border-width: .5rem;
+    border-radius: .5rem .5rem;
+    overflow:hidden;
+    background-color: #000;
+}
+
+
+/*-------------------- SERVICES----------------------*/
+
+.list-services{
+    width: 100%;
+    height: 60vh;
+}
+
+#items-services{
+    width: inherit;
+    height: 100%;
+}
+
+.ttl-items{
+    margin: .20rem;
+    padding: .20rem 0 .30rem 0;
+    text-align: center;
+    font-family: var(--font-pattaya);
+    font-size: 1.5rem;
+    background-color: var(--bg-color-gray1);
+    border-radius: 5px;
+}
+
+.service-item {
+    display: inline-block;
+    background-color: var(--bg-color-gray1);
+    border: 1px solid var(--color-border3);
+    height: auto;
+    width: 30%;
+    margin: 1.5rem 0 0 1.9rem;
+    padding: .5rem;
+    outline: 1px solid var(--color-border2);
+    outline-offset: .5rem;
+    border-radius: 3.5px;
+}
+
+.service-item h4 {
+    font-family: var(--font-bebasNeue);
+    font-size: 25px;
+}
+
+.service-item p{
+    font-family: var(--font-sourceSansPro);
+    color: var(--color-txt1);
+    text-align: justify;
+}
+
+.svc-one,
+.svc-two,
+.svc-three{
+    margin-bottom: 1rem;
+}
+
+
+/*------------------ FOOTER -------------------*/
+
+
+
+
+
+/*--------------VARIABLES-------------------*/
+
+:root{
+    --color-txt1: #fff;
+    --color-txt2: #000;
+    --font-koho: 'Koho';
+    --font-pattaya: 'Pattaya';
+    --font-playfairDisplay: 'Playfair Display';
+    --font-bebasNeue: 'Bebas Neue';
+    --font-sourceSansPro: 'Source Sans Pro';
+    --color-border1: #fff;
+    --bg-color-gray1: #e8e8e8;
+    --color-border2: #894dff;
+    --bg-color-white1: #fff;
+    --color-border3: #000;
+}
