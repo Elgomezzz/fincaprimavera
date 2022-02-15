@@ -1,1 +1,143 @@
 /*--------------- HEADER -----------------*/
+img{
+    max-width: 100%;
+}
+
+/*--------------- HEADER -----------------*/
+
+.ttl-header{
+    border: 1px solid var(--color-border1);
+    color: var(--color-txt1);
+    background-image: url(/resources/img/palmeras.jpg);
+    background-size:cover;
+    width: 100%;
+    height: 9rem;
+}
+
+.ttl-header h1{
+    margin: 2.5rem 0 0 0;
+    text-align: center;
+    height: 6rem;
+    font-size: 3.5em;
+    font-family: var(--font-pattaya);
+}
+
+
+.ttl-header:hover{
+    color: var(--color-txt2);
+    background-image: url(/resources/img/back_pis.jpg);
+}
+
+/*-------------------NAV-----------------------*/
+
+nav{
+    height: 2.40rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin-top: 0.30rem;
+    z-index: 10;
+}
+
+.list-items{
+    background-color: var(--bg-color-gray1);
+    text-align: center;
+    height: inherit;
+    word-spacing: 12rem;
+}
+
+.nav-item{
+    display: inline-block;
+    margin-top: 0.40rem;
+}
+
+.nav-item-link{
+    font-family: var(--font-koho);
+    font-size: 1.20rem;
+    text-decoration: none;
+    color: var(--color-txt2);
+}
+
+
+
+
+
+/*------------------ FOOTER -------------------*/
+
+footer{
+    background-color: var(--bg-color-gray1);
+    font-family: var(--font-koho);
+    height: 16.5rem;
+    width: 99.99%;
+}
+
+
+.social-media,
+.location-estate,
+.info-contact{
+    display: inline-block;
+}
+
+.social-media{
+    position: relative;
+    bottom: 5.5rem;
+    margin: 0 6rem 0 2rem;
+    padding: 5px 15px 5px 5px;
+    border: 1px solid var(--color-border3);
+    outline: 1px solid var(--color-border2);
+    outline-offset: 5px;
+    border-radius: 2px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: var(--color-txt1);
+}
+
+.location-estate{
+    margin: .5rem 3.8rem .5rem 8.2rem;
+    padding: 3px;
+}
+
+.location-ttl{
+    text-align: center;
+    padding: .5rem;
+}
+
+.location-gps{
+    border: 1px solid var(--color-border2);
+    border-radius: 3px;
+}
+
+.info-contact{
+    position: relative;
+    bottom: 5.5rem;
+    margin: 0 0 0 2rem;
+    border: 1px solid var(--color-border3);
+    outline: 1px solid var(--color-border2);
+    outline-offset: 5px;
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+}
+
+.end{
+    background-color: var(--bg-color-white1);
+    text-align: center;
+}
+
+/*--------------VARIABLES-------------------*/
+
+:root{
+    --color-txt1: #fff;
+    --color-txt2: #000;
+    --font-koho: 'Koho';
+    --font-pattaya: 'Pattaya';
+    --font-playfairDisplay: 'Playfair Display';
+    --font-bebasNeue: 'Bebas Neue';
+    --font-sourceSansPro: 'Source Sans Pro';
+    --color-border1: #fff;
+    --bg-color-gray1: #e8e8e8;
+    --color-border2: #894dff;
+    --bg-color-white1: #fff;
+    --color-border3: #000;
+}
