@@ -4,11 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/tarifas.css">
     <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/tarifas.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="../img/palm-tree_38556.ico" type="image/x-icon">
     <title> Finca La Primavera </title>
 </head>
 <body>
@@ -16,16 +20,16 @@
         <div class="ttl-header">
             <h1>Finca La Primavera </h1> 
         </div>
-        <nav>
-            <ul class="list-items">
-                <li class="nav-item"><a href="../../index.html" class="nav-item-link cf_0">Inicio</a></li>
-                <li class="nav-item"><a href="../views/quienes.html" class="nav-item-link cf_1">Nosotros</a></li>
-                <li class="nav-item"><a href="../views/tarifas.html" class="nav-item-link cf_2">Tarifas</a></li>
-                <li class="nav-item"><a href="../views/location.html" class="nav-item-link cf_3">Ubicación</a></li>
-                <li class="nav-item"><a href="../views/contact.html" class="nav-item-link cf_4">Contactenos</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <ul class="list-items">
+            <li class="nav-item"><a href="../../index.html" class="nav-item-link cf_0">Inicio</a></li>
+            <li class="nav-item"><a href="../views/quienes.html" class="nav-item-link cf_1">Nosotros</a></li>
+            <li class="nav-item"><a href="../views/tarifas.html" class="nav-item-link cf_2">Tarifas</a></li>
+            <li class="nav-item"><a href="../views/location.html" class="nav-item-link cf_3">Ubicación</a></li>
+            <li class="nav-item"><a href="../views/contact.html" class="nav-item-link cf_4">Contactenos</a></li>
+        </ul>
+    </nav>
     <main>
         <article class="rates">
             <section class="items-rates">
@@ -33,7 +37,7 @@
                     <h2>Tarifas</h2>
                 </div>
                 <div class="list-items-rates">
-                    <div class="service-item">
+                    <div class="service-item svc-one">
                         <div class="svc-one-ttl">
                             <h3>Tarifa 1</h3>
                         </div>
@@ -46,7 +50,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="service-item">
+                    <div class="service-item svc-two">
                         <div class="svc-two-ttl">
                             <h3>Tarifa 2</h3>
                         </div>
@@ -56,10 +60,11 @@
                                 <li class="list-item">Item2</li>
                                 <li class="list-item">Item3</li>
                                 <li class="list-item">Item4</li>
+                                <li class="list-item">Item5</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="service-item">
+                    <div class="service-item svc-three">
                         <div class="svc-three-ttl">
                             <h3>Tarifa 3</h3>
                         </div>
@@ -69,6 +74,8 @@
                                 <li class="list-item">Item2</li>
                                 <li class="list-item">Item3</li>
                                 <li class="list-item">Item4</li>
+                                <li class="list-item">Item5</li>
+                                <li class="list-item">Item6</li>
                             </ul>
                         </div>
                     </div>
@@ -89,11 +96,11 @@
                         <label for="l-name">Apellidos:</label>
                         <input type="text" name="l-name" id="l-name">
                         <label for="telephone">Telefono:</label>
-                        <input type="text" name="telephone" id="telephone">
+                        <input type="number" name="telephone" id="telephone" min="0" max="9999999999">
                         <label for="email">Correo Electronico:</label>
                         <input type="email" name="email" id="email">
                         <label for="n-people">Número de Personas:</label>
-                        <input type="number" name="n-people" id="n-people" min="0" max="35" required
+                        <input type="number" name="n-people" id="n-people" min="10" max="35" required
                         placeholder=" MIN 10 - MAX 35 ">
                         <label for="date-reservation-ini">Fecha de Ingreso:</label>
                         <input type="date" name="date-reservation-ini" id="date-reservation-ini">
