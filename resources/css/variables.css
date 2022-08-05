@@ -1,0 +1,11 @@
+:root{
+    --color-white: #fff;
+    --color-black: #000;
+    --bg-color-gray: #e8e8e8;
+    --color-border: #894dff;
+    --font-koho: 'Koho';
+    --font-pattaya: 'Pattaya';
+    --font-playfairDisplay: 'Playfair Display';
+    --font-bebasNeue: 'Bebas Neue';
+    --font-sourceSansPro: 'Source Sans Pro';
+}

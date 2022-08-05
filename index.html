@@ -8,6 +8,7 @@
     <meta name="title" content="Finca la Primavera">
     <link rel="stylesheet" href="resources/css/normalize.css">
     <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="stylesheet" href="resources/css/variables.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
@@ -19,147 +20,151 @@
 </head>
 <body>
     <header>
-        <div class="ttl-header">
-            <h1>Finca La Primavera </h1> 
-        </div>
+        <section class="ttl-container">
+            <h1>Finca La Primavera</h1> 
+        </section>
     </header>
     <nav>
-        <ul class="list-items">
-            <li class="nav-item"><a href="index.html" class="nav-item-link cf_0">Inicio</a></li>
-            <li class="nav-item"><a href="resources/views/quienes.html" class="nav-item-link cf_1">Nosotros</a></li>
-            <li class="nav-item"><a href="resources/views/tarifas.html" class="nav-item-link cf_2">Tarifas</a></li>
-            <li class="nav-item"><a href="resources/views/location.html" class="nav-item-link cf_3">Ubicación</a></li>
-            <li class="nav-item"><a href="resources/views/contact.html" class="nav-item-link cf_4">Contactenos</a></li>
-        </ul>
+        <section class="nav-container">
+            <ul class="list-items">
+                <li class="nav-item"><a href="index.html">Inicio</a></li>
+                <li class="nav-item"><a href="#">Nosotros</a></li>
+                <li class="nav-item"><a href="#">Tarifas</a></li>
+                <li class="nav-item"><a href="#">Ubicación</a></li>
+                <li class="nav-item"><a href="#">Contactenos</a></li>
+            </ul>
+        </section>
     </nav>
     <main>
-        <article class="img-estate">
-            <section class="scroll-images">
+        <section class="img-estate">
+            <article class="scroll-images">
                 <div class="images-scroll-index">
-                    <img src="/resources/img/home1.jpg" id="sc_img_0" alt="img1">
-                    <img src="/resources/img/home2.jpg" id="sc_img_1" alt="img2">
-                    <img src="/resources/img/home3.jpg" id="sc_img_2" alt="img3">
-                    <img src="/resources/img/home4.jpg" id="sc_img_3" alt="img4">
+                    <img src="/resources/img/home1.jpg" alt="img1" class="item-scroll">
+                    <img src="/resources/img/home2.jpg" alt="img2" class="item-scroll">
+                    <img src="/resources/img/home3.jpg" alt="img3" class="item-scroll">
+                    <img src="/resources/img/home4.jpg" alt="img4" class="item-scroll">
                 </div>
-                <div class="btn-scroll-img">
-                    <button id="btn_0"></button>
-                    <button id="btn_1"></button>
-                    <button id="btn_2"></button>
-                    <button id="btn_3"></button>
-                </div>        
-            </section>
-        </article>
-        <article class="list-services">
-            <section id="items-services">
+            </article>
+        </section>
+        <section class="list-services">
+            <article class="items-services">
                 <div class="ttl-items">
                     <h2>¿Que contamos en nuestra finca?</h2>
                 </div>
-                <div class="service-item svc-one">
-                    <div class="svc-one-ttl">
-                        <h4>Hospedaje</h4>
-                    </div>
-                    <div class="svc-one-txt">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
-                            magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
-                            ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
-                        </p>
-                    </div>      
-                </div>
-                    <div class="service-item svc-two">
-                        <div class="svc-two-ttl">
-                            <h4>Duchas y Piscina</h4>
+                <article class="container-services">
+                    <div class="service-item">
+                        <div class="ttl-service">
+                            <h4>Hospedaje</h4>
                         </div>
-                        <div class="svc-two-txt">
+                        <div class="txt-service">
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
                                 magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
                                 ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
                             </p>
-                        </div>
+                        </div>      
                     </div>
-                    <div class="service-item svc-three">
-                        <div class="svc-three-ttl">
-                            <h4>Alimentación</h4>
+                        <div class="service-item">
+                            <div class="ttl-service">
+                                <h4>Duchas y Piscina</h4>
+                            </div>
+                            <div class="txt-service">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
+                                    magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
+                                    ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
+                                </p>
+                            </div>
                         </div>
-                        <div class="svc-three-txt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
-                                magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
-                                ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
-                            </p>
-                        </div> 
-                    </div>
-                    <div class="service-item svc-four">
-                        <div class="svc-four-ttl">
-                            <h4>Wifi</h4>
+                        <div class="service-item">
+                            <div class="ttl-service">
+                                <h4>Alimentación</h4>
+                            </div>
+                            <div class="txt-service">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
+                                    magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
+                                    ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
+                                </p>
+                            </div> 
                         </div>
-                        <div class="svc-four-txt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
-                                magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
-                                ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
-                            </p>
+                        <div class="service-item">
+                            <div class="ttl-service">
+                                <h4>Wifi</h4>
+                            </div>
+                            <div class="txt-service">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
+                                    magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
+                                    ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
+                                </p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="service-item svc-five">
-                        <div class="svc-five-ttl">
-                            <h4>Clima</h4>
+                        <div class="service-item">
+                            <div class="ttl-service">
+                                <h4>Clima</h4>
+                            </div>
+                            <div class="txt-service">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
+                                    magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
+                                    ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
+                                </p>
+                            </div>  
                         </div>
-                        <div class="svc-five-txt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
-                                magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
-                                ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
-                            </p>
-                        </div>  
-                    </div>
-                    <div class="service-item svc-six">
-                        <div class="svc-six-ttl">
-                            <h4>Parqueadero</h4>
+                        <div class="service-item">
+                            <div class="ttl-service">
+                                <h4>Parqueadero</h4>
+                            </div>
+                            <div class="txt-service">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
+                                    magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
+                                    ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
+                                </p>
+                            </div>    
                         </div>
-                        <div class="svc-six-txt">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi ratione facilis 
-                                magnam molestiae corrupti voluptatem repudiandae asperiores, blanditiis, exercitationem, 
-                                ab illum totam enim omnis eligendi recusandae molestias nobis perferendis?
-                            </p>
-                        </div>    
-                    </div>
-            </section>
-        </article>
+                </article>
+            </article>
+        </section>
     </main>
     <footer>
-        <article class="social-media">
-            <div class="items-social-media">
-                <div class="social-media-ttl">
-                    <h3>Redes Sociales</h3>
+        <section class="container-items">
+            <article class="item-footer social-media">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>Redes Sociales</h3>
+                    </div>
+                    <div class="list-item-footer">
+                        <a href="#">Facebook</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">Instagram</a>
+                    </div>
                 </div>
-                <div class="social-media-list">
-                    <a href="#">Facebook</a><br>
-                    <a href="#">Twitter</a><br>
-                    <a href="#">Instagram</a>
+            </article>
+            <article class="item-footer location">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>¿Donde nos ubicamos?</h3>
+                    </div>
+                    <div class="location-gps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.325703737088!2d-74.18271155000001!3d4.5793986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622059198589!5m2!1ses!2sco" 
+                           width="400" height="150" style="border:1px solid #fff;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
                 </div>
+            </article>
+            <article class="item-footer info-contact">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>Contactenos</h3>
+                    </div>
+                    <div class="txt-item-footer">
+                        <p>Telefono: 7-76-7979</p>
+                        <p>Telefono Movil: 310-601-6263</p>
+                        <p>Correo Electronico: ejemplo@ejemplo.com</p>
+                    </div>
+                </div>
+            </article>
+            <div class="item-footer end">
+                <p> &#169 Todos los derechos reservados.</p>
+                <p> &#127796 Finca la Primavera &#127796 </p>
             </div>
-        </article>
-        <article class="location-estate">
-            <div class="location-ttl">
-                <h3>¿Donde nos ubicamos?</h3>
-            </div>
-            <div class="location-gps">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.325703737088!2d-74.18271155000001!3d4.5793986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622059198589!5m2!1ses!2sco" 
-                    width="500" height="200" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
-            </div>
-        </article>
-        <article class="info-contact">
-            <div class="contact-ttl">
-                <h3>Contactenos</h3>
-            </div>
-            <div class="contact-txt">
-                <p>Telefono: 7-76-7979</p>
-                <p>Telefono Movil: 310-601-6263</p>
-                <p>Correo Electronico: ejemplo@ejemplo.com</p>
-            </div>
-        </article>
-        <div class="end">
-            <p> &#169 Todos los derechos reservados.</p>
-            <p> &#127796 Finca la Primavera &#127796 </p>
-        </div>
+        </section>
     </footer>
 </body>
 </html>
