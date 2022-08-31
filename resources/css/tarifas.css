@@ -1,0 +1,476 @@
+/*Code CSS structured as follows 
+
+1. Position
+2. Visibility
+3. Box Model
+4. Typography
+5. Structures Visual
+6. Varied (Animations, etc...) */
+
+
+/*----------- HEADER -----------*/
+
+header{
+    position: relative;
+
+    height: 20vh;
+
+    font-family: var(--font-pattaya);
+}
+
+.ttl-container{
+    position: inherit;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    height: inherit;
+
+    font-size: 2rem;
+
+    background-image: url(/resources/img/palmeras.jpg);
+    
+}
+
+.ttl-container h1{
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: flex-start;
+    flex: 1 1 100%;
+
+    margin: 1.5rem 0 0 0;
+
+    text-align: center;
+    
+    color: var(--color-white);
+    text-shadow: 1px 1px 1px var(--color-black),
+        1.5px 1.5px .5px var(--color-white),
+        2px 2px 1px var(--color-black);
+
+    transition: color .5s ease-in,
+        text-shadow .5s ease-in;
+}
+
+.ttl-container h1:hover{
+    color: var(--color-black);
+    text-shadow: 1px 1px 1px var(--color-white),
+        1.5px 1.5px .5px var(--color-black),
+        2px 2px 1px var(--color-white);
+}
+
+
+/*---------------------NAVBAR-------------------------*/
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    height: 6vh;
+    margin-top: 1px;
+}
+
+.nav-container{
+    height: inherit;
+}
+
+.list-items{
+    display: flex;
+    flex-flow: row wrap;
+
+    height: inherit;
+}
+
+.nav-item{
+    flex: 0 1 20%;
+
+    list-style: none;
+    background-color: var(--bg-color-gray);
+}
+
+.nav-item a{
+    display: flex;
+    justify-content: center;
+
+    padding-top: 6.2px;
+    
+    font-family: var(--font-koho);
+    font-size: 1.2rem;
+
+    text-decoration: none;
+    color: var(--color-white);
+    text-shadow: 1px .5px 1px var(--color-black);
+    transition: .55s ease-in-out;
+}
+
+.nav-item a:hover{
+    color: var(--color-border);
+    text-shadow: 1px .5px 1px var(--color-white)
+}
+
+
+/*--------------------------MAIN SECTION------------------------------*/
+
+
+/*------------TARIFAS---------------------*/
+
+.container-tarifas{
+    position: relative;
+
+    height: 80vh;
+    width: 100%;
+}
+
+.container-items-tarifas{
+    display: flex;
+    flex-flow: row wrap;
+
+    height: inherit;
+    width: inherit;
+
+    background-image: linear-gradient(90deg, var(--color-white) 0% 25%,
+    var(--color-border) 100%);
+}
+
+.contain-item-tarifas{
+    height: 85%;
+    width: 30%;
+
+    margin: 2rem 0 0 2rem;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 5px var(--color-black);
+}
+
+.contain-item-tarifas>h2{
+    padding: 1rem;
+
+    font-family: var(--font-pattaya);
+    font-size: 3.5rem;
+
+    text-align: center;
+
+    color: var(--color-white);
+    text-shadow: 1px 1px 5px var(--color-black);
+}
+
+.list-item-tarifa{
+    height: 60%;
+}
+
+.list-item-tarifa>ol>li{
+    height: 1.8rem;
+    width: 85%;
+
+    margin: .35rem 0 0 1.8rem;
+    
+    font-family: var(--font-koho);
+    font-size: 1.2rem;
+
+    color: var(--color-white);
+    text-align: center;
+    list-style: none;
+    text-shadow: 1px 1px 3px var(--color-black);
+    border: 1px hidden var(--color-white);
+}
+
+.list-item-tarifa>ol>li:hover{
+
+    border: 1px solid var(--color-white);
+    border-radius: 3px;
+}
+
+.tf-01>h2,
+.tf-01>div>ol>li{
+
+    border: 1px solid var(--color-white);
+    
+    color: var(--color-black);
+    text-shadow: none;
+}
+
+.tf-01>div>ol>li:hover{
+
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+}
+
+.costo-tarifa{
+    position: relative;
+
+    height: 16%;
+    width: 100%;
+}
+
+.costo-tarifa>h3{
+    font-family: var(--font-pattaya);
+    font-size: 1.5rem;
+
+    text-align: center;
+}
+
+.costo-tarifa>h5{
+    font-family: var(--font-koho);
+    text-align: center;
+}
+
+
+
+/*---------------FORMULARIO--------------------*/
+
+.container-form{
+    position: relative;
+
+    height: 80vh;
+    width: 100%;
+
+    background-image: linear-gradient(90deg, var(--color-white) 0% 25%,
+    var(--color-border) 100%);
+}
+
+.form-reservas{
+    height: 80%;
+    width: inherit;
+    
+    padding: 1rem;
+}
+
+.form-reservas>fieldset>legend>h3{
+    font-family: var(--font-bebasNeue);
+    font-size: 1.9rem;
+    letter-spacing: 1.5px;
+}
+
+.container-items-form{
+    height: inherit;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.item-form{
+    height: auto;
+    width: 32%;
+
+    margin: 3rem 0 0 1rem;
+
+    font-family: var(--font-koho);
+    font-size: 1.2rem;
+}
+
+.form-reservas>fieldset{
+    padding-bottom: 2rem;
+
+    border: 1px solid var(--color-black);
+    border-radius: 5px;
+}
+
+.item-form>input,
+.item-form>select{
+    border: 1px solid;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.item-form>input:focus,
+.item-form>select:focus{
+    border: 1px solid var(--color-border);
+
+    outline: 1px solid var(--color-border);
+}
+
+
+input[type=number] { -moz-appearance:textfield; }
+
+.btn-clean,
+.btn-reserva{
+    margin: 2rem 0 0 25rem;
+    padding: .5rem;
+
+    background-color: var(--color-white);
+
+    font-family: var(--font-koho);
+    font-size: 1rem;
+
+    border: 1px solid var(--color-border);
+    border-radius: 5px;
+}
+
+.btn-clean:hover,
+.btn-reserva:hover{
+    border: 1px solid var(--color-white);
+
+    background-color: var(--color-border);
+    color: var(--color-white);
+    transition: all .5s ease-in-out;
+}
+
+.container-comentarios{
+    position: relative;
+
+    height: 60vh;
+    width: 100%;
+}
+
+.container-items-comentarios{
+    height: inherit;
+    width: inherit;
+
+    display: flex;
+    flex-flow: row wrap;
+
+    background-image: linear-gradient(90deg, var(--color-white) 0% 25%,
+    var(--color-border) 100%);
+}
+
+.item-comentario{
+    position: relative;
+    
+    height: 80%;
+    width: 30%;
+
+    margin: 1.4rem;
+    padding: 1rem;
+
+    box-shadow: 2px 2px 5px var(--color-black);
+    border-radius: 5px;
+
+    animation: scroll 30s infinite;
+}
+
+@keyframes scroll{
+    0%{
+        -moz-transform:translateX(0%);
+    }
+    50%{
+        -moz-transform: translateX(-50%);
+    }
+    80%{
+        -moz-transform: translateX(50%);
+    }
+    100%{
+        -moz-transform: translateX(0%);
+    }
+}
+
+
+.img-profile{
+    height: 60%;
+    width: 100%;
+}
+
+.img-profile>img{
+    height: 80%;
+    width: 38%;
+
+    margin: 1rem 7rem;
+    border: 2px solid var(--color-white);
+    
+    
+    border-radius: 100%;
+    object-fit: cover;
+    outline: 2px solid var(--color-border);
+    outline-offset: 4px;
+    box-shadow: 2px 2px 5px var(--color-black);
+}
+
+.txt-comentario{
+    position: relative;
+}
+
+.txt-comentario>p{
+
+    height: 50%;
+    width: 100%;
+
+    font-family: var(--font-koho);
+
+    text-align: justify;
+    overflow: hidden;
+}
+
+
+/*------------------------FOOTER--------------------------------*/
+
+footer{
+    position: relative;
+
+    height: 37vh;
+    width: 100%;
+
+    background-image: linear-gradient(90deg, var(--color-white) 0% 25%,
+    var(--color-border) 100%);
+}
+
+.container-items{
+    display: flex;
+    flex-flow: row wrap;
+
+    height: inherit;
+    width: inherit;
+}
+
+.item-footer{
+    justify-content: flex-start;
+    align-items: stretch;
+    flex: 1 1 30%;
+}
+
+.ttl-item-footer h3{
+    margin-top: .5rem;
+
+    font-family: var(--font-bebasNeue);
+    font-size: 1.5rem;
+
+    text-align: center;
+    text-shadow: 2px 2px 3px var(--color-white)
+}
+
+.list-item-footer{
+    margin-left: 1rem;
+    padding: 1rem 0 1rem 2.5rem;
+
+
+    background-color: var(--color-border);
+    box-shadow: 2px 1px 10px var(--color-black);
+    border-radius: 5px;
+}
+
+.list-item-footer a{
+    font-family: var(--font-koho);
+    font-size: 1.25rem;
+
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.location-gps iframe{
+    margin: 2px 0 2px 1.75rem;
+}
+
+.txt-item-footer{
+    margin-right: 1rem;
+    padding: 1rem 0 1rem 2rem;
+
+    border: 1px solid var(--color-white);
+
+    font-family: var(--font-koho);
+    font-size: 1.15rem;
+
+    background-color: var(--color-white);
+    box-shadow: 2px 1px 10px var(--color-black);
+    border-radius: 5px;
+}
+
+.end p{
+    font-family: var(--font-koho);
+    font-size: 1rem;
+
+    text-align: center;
+    color: var(--color-white);
+    text-shadow: .5px .5px .5px var(--color-black);
+}

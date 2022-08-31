@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Description web page" >
+    <meta name="title" content="Finca la Primavera">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/tarifas.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="../img/palm-tree_38556.ico" type="image/x-icon">
+    <title> Finca La Primavera </title>
+</head>
+<body>
+    <header>
+        <section class="ttl-container">
+            <h1>Finca La Primavera</h1> 
+        </section>
+    </header>
+    <nav>
+        <section class="nav-container">
+            <ul class="list-items">
+                <li class="nav-item"><a href="../../index.html">Inicio</a></li>
+                <li class="nav-item"><a href="/resources/views/nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a href="/resources/views/tarifas.html">Tarifas</a></li>
+                <li class="nav-item"><a href="#">Ubicación</a></li>
+                <li class="nav-item"><a href="#">Contactenos</a></li>
+            </ul>
+        </section>
+    </nav>
+    <main>
+        <section class="container-tarifas">
+            <article class="container-items-tarifas">
+                <div class="contain-item-tarifas tf-01">
+                    <h2>Tarifa 1</h2>
+                    <div class="list-item-tarifa">
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </div>
+                    <div class="costo-tarifa">
+                        <h3>Valor: $000</h3>
+                        <h5>(valor por persona)</h5>
+                    </div>
+                </div>
+                <div class="contain-item-tarifas">
+                    <h2>Tarifa 2</h2>
+                    <div class="list-item-tarifa">
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                        </ol>
+                    </div>
+                    <div class="costo-tarifa">
+                        <h3>Valor: $00000</h3>
+                        <h5>(valor por persona)</h5>
+                    </div>
+                </div>
+                <div class="contain-item-tarifas">
+                    <h2>Tarifa 3</h2>
+                    <div class="list-item-tarifa">
+                        <ol>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                            <li>Item 4</li>
+                            <li>Item 5</li>
+                            <li>Item 6</li>
+                            <li>Item 7</li>
+                        </ol>
+                    </div>
+                    <div class="costo-tarifa">
+                        <h3>Valor: $0000000</h3>
+                        <h5>(valor por persona)</h5>
+                    </div>
+                </div>
+            </article>
+        </section> 
+        <section class="container-form">
+            <form action="#" method="post" class="form-reservas">
+                <fieldset>
+                    <legend><h3>¡Haz tu reserva!</h3></legend>
+                        <div class="container-items-form">
+                            <div class="item-form">
+                                <label for="name">Nombres:</label>
+                                    <input type="text" name="names" id="name">
+                            </div>
+                            <div class="item-form">
+                                 <label for="last-name">Apellidos:</label>
+                                    <input type="text" name="last-names" id="last-name">
+                            </div>
+                            <div class="item-form">
+                                <label for="years">Edad:</label>
+                                    <input type="number" name="years" id="years" min="0">
+                            </div>
+                            <div class="item-form">
+                                <label for="phone">Telefono:</label>
+                                    <input type="tel" name="phone" id="phone">
+                            </div>
+                            <div class="item-form">
+                                <label for="email">Correo electronico:</label>
+                                    <input type="email" name="email" id="email">
+                            </div>
+                            <div class="item-form">
+                                <label for="nPersonas">N° de personas:</label>
+                                    <input type="number" name="nPersonas" id="nPersonas" min="10" max="35">
+                            </div>
+                            <div class="item-form">
+                                <label for="access">Fecha de ingreso:</label>
+                                    <input type="date" name="access" id="access">
+                            </div>
+                            <div class="item-form">
+                                <label for="exit">Fecha de salida:</label>
+                                    <input type="date" name="exit" id="exit">
+                            </div>
+                            <div class="item-form">
+                                <label for="tarifas">Tarifa deseada:</label>
+                                    <select name="tarifas" id="tarifas">
+                                        <option value="0">Seleccione una opción</option>
+                                        <option value="1">Tarifa 1</option>
+                                        <option value="2">Tarifa 2</option>
+                                        <option value="3"> Tarifa 3</option>
+                                    </select>
+                            </div>
+                            <div class="item-form">
+                                <label for="mPagos">Método de pago:</label>
+                                    <select name="mPagos" id="mPagos">
+                                        <option value="0">Seleccione una opción</option>
+                                        <option value="1">PSE</option>
+                                        <option value="2">Efectivo</option>
+                                        <option value="3"> Nequi / Daviplata</option>
+                                    </select>
+                            </div>
+                        </div>
+                </fieldset>
+                <input type="reset" value="Limpiar" class="btn-clean">
+                <input type="submit" value="Reservar" class="btn-reserva">
+            </form>
+        </section>
+        <section class="container-comentarios">
+            <article class="container-items-comentarios">
+                <div class="item-comentario">
+                    <div class="img-profile">
+                        <img src="/resources/img/home1.jpg" alt="">
+                    </div>
+                    <div class="txt-comentario">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos necessitatibus a qui 
+                            exercitationem atque laborum consectetur, magnam eum in. Ipsum nesciunt eaque obcaecati in sequi, 
+                            officia quas sapiente magni.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-comentario">
+                    <div class="img-profile">
+                        <img src="/resources/img/home3.jpg" alt="">
+                    </div>
+                    <div class="txt-comentario">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos necessitatibus a qui 
+                            exercitationem atque laborum consectetur, magnam eum in. Ipsum nesciunt eaque obcaecati in sequi, 
+                            officia quas sapiente magni.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-comentario">
+                    <div class="img-profile">
+                        <img src="/resources/img/home2.jpg" alt="">
+                    </div>
+                    <div class="txt-comentario">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos necessitatibus a qui 
+                            exercitationem atque laborum consectetur, magnam eum in. Ipsum nesciunt eaque obcaecati in sequi, 
+                            officia quas sapiente magni.
+                        </p>
+                    </div>
+                </div>
+                <!-- <div class="item-comentario">
+                    <div class="img-profile">
+                        <img src="#" alt="">
+                    </div>
+                    <div class="txt-comentario">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos necessitatibus a qui 
+                            exercitationem atque laborum consectetur, magnam eum in. Ipsum nesciunt eaque obcaecati in sequi, 
+                            officia quas sapiente magni.
+                        </p>
+                    </div>
+                </div>
+                <div class="item-comentario">
+                    <div class="img-profile">
+                        <img src="#" alt="">
+                    </div>
+                    <div class="txt-comentario">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi dignissimos necessitatibus a qui 
+                            exercitationem atque laborum consectetur, magnam eum in. Ipsum nesciunt eaque obcaecati in sequi, 
+                            officia quas sapiente magni.
+                        </p>
+                    </div>
+                </div> -->
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section class="container-items">
+            <article class="item-footer social-media">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>Redes Sociales</h3>
+                    </div>
+                    <div class="list-item-footer">
+                        <a href="#">Facebook</a><br>
+                        <a href="#">Twitter</a><br>
+                        <a href="#">Instagram</a>
+                    </div>
+                </div>
+            </article>
+            <article class="item-footer location">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>¿Donde nos ubicamos?</h3>
+                    </div>
+                    <div class="location-gps">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15908.325703737088!2d-74.18271155000001!3d4.5793986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1622059198589!5m2!1ses!2sco" 
+                           width="400" height="150" style="border:1px solid #fff;" allowfullscreen="" loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </article>
+            <article class="item-footer info-contact">
+                <div class="contain-item-footer">
+                    <div class="ttl-item-footer">
+                        <h3>Contactenos</h3>
+                    </div>
+                    <div class="txt-item-footer">
+                        <p>Telefono: 7-76-7979</p>
+                        <p>Telefono Movil: 310-601-6263</p>
+                        <p>Correo Electronico: ejemplo@ejemplo.com</p>
+                    </div>
+                </div>
+            </article>
+            <div class="item-footer end">
+                <p> &#169 Todos los derechos reservados.</p>
+                <p> &#127796 Finca la Primavera &#127796 </p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
