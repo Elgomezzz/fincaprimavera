@@ -3,9 +3,7 @@ name: Release Tag
 on:
   push:
     branches:
-      - master
       - staging
-      - qa
 
 
 jobs:
