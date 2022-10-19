@@ -3,9 +3,7 @@ name: Release Tag
 on:
   push:
     branches:
-      - qa
-    tags:
-      - "v[0-9]+.[0-9]+.[0-9]+"
+      - master
 
 
 jobs:
@@ -16,5 +14,5 @@ jobs:
     steps:
       - uses: rymndhng/release-on-push-action@master
         with:
-          bump_version_scheme: patch
+          bump_version_scheme: major
           tag_prefix: v
